@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;*/
+	vertical-align: baseline;
+	/*background: transparent;*/
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+html,
+body {
+	font-size: 12px;
+	font-family: "Microsoft YaHei", Verdana, Geneva, sans-serif, \5b8b\4f53;
+}
+
+a {
+	text-decoration: none
+}
+a:hover {
+	color: #e90404;
+}
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+img {
+	display: block
+}
+
+.clear:after {
+	clear: both;
+	height: 0;
+	content: ".";
+	overflow: hidden;
+	visibility: hidden;
+	display: block
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal
+}
+
+body {
+	background-color: #f5f5f5;
+	color: #474747;
+	min-width: 1300px;
+}
+
+input {
+	outline: 0;
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+	outline: 0;
+}
+
+button,
+input,
+textarea {
+	resize: none;
+	outline: 0;
+}
+.wrapper {
+	width: 1190px;
+	margin: 0 auto;
+}
+.in {
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+.in:hover {
+	-webkit-transform: translate(0, -2px);
+	-moz-transform: translate(0, -2px);
+	-ms-transform: translate(0, -2px);
+	-o-transform: translate(0, -2px);
+	transform: translate(0, -2px);
+	box-shadow: 0 3px 3px #CCC;
+}
+

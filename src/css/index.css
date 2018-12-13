@@ -1,0 +1,558 @@
+/*轮播图*/
+
+.banner {
+	width: 1300px;
+	height: 439px;
+	position: relative;
+	overflow: hidden;
+}
+
+.banner ul {
+	width: 3900px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.banner ul li {
+	float: left;
+	width: 1300px;
+	height: 439px;
+}
+
+.banner ul .li1 {
+	background: url(http://img.shop.wanmei.com/upload/ad/2018-08-30/dd2da38981694ff088124d978e52a67b.jpg) center top no-repeat;
+}
+
+.banner ul .li2 {
+	background: url(http://img.shop.wanmei.com/upload/ad/2018-09-27/d9c72b4bdc2d4f3b9fbce61df9099344.jpg) center top no-repeat;
+}
+
+.banner ul .li3 {
+	background: url(http://img.shop.wanmei.com/upload/ad/2018-08-24/eec5d3cdb61f4972b6f926e6e20a3cff.jpg) center top no-repeat;
+}
+
+.banner ul li a {
+	display: block;
+	width: 1190px;
+	height: 439px;
+	margin: 0 auto;
+}
+
+ol {
+	position: absolute;
+	left: 50%;
+	width: 64px;
+	margin-left: -32px;
+	bottom: 30px;
+	z-index: 10;
+}
+
+ol li {
+	width: 11px;
+	height: 11px;
+	border-radius: 6px;
+	margin: 0 5px;
+	background-color: #eff0f2;
+	float: left;
+	cursor: pointer;
+}
+
+/*.banner .active {
+	background: #e22430;
+}*/
+
+.active {
+	background: #e22430;
+}
+
+.banner>a {
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+}
+
+.banner>a:hover {
+	background: url(../img/rgba.png);
+}
+
+.banner .prev {
+	margin-left: -595px;
+	left: 50%;
+}
+
+.banner .next {
+	margin-right: -595px;
+	right: 50%;
+}
+
+.banner a span {
+	display: block;
+	width: 47px;
+	height: 80px;
+	background: url(../img/base.png);
+}
+
+.banner .prev span {
+	background-position: 0 -20px;
+}
+
+.banner .next span {
+	background-position: -47px -20px;
+}
+
+
+/*楼梯*/
+
+.loutinav {
+	width: 35px;
+	position: fixed;
+	top: 100px;
+	left: 0;
+	border: 1px solid #ddd;
+	display: none;
+}
+
+.loutinav ul {}
+
+.loutinav ul li {
+	width: 35px;
+	height: 32px;
+	border-bottom: 1px dotted #DDDDDD;
+	list-style: none;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+	padding: 10px 0;
+	background: #918888;
+	color: #fff;
+}
+
+.loutinav ul li span {
+	width: 35px;
+	height: 32px;
+	padding: 10px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.loutinav ul li.active span {
+	background: #c00;
+	color: #fff;
+	display: block;
+}
+
+
+/*广告位*/
+
+.buying {
+	padding-bottom: 40px;
+	background-color: #FFF;
+}
+
+.buying .wrapper {
+	position: relative;
+	padding-top: 146px;
+}
+
+.buying .ad_list {
+	position: absolute;
+	top: -14px;
+	left: 0;
+}
+
+.buying .ad_list a {
+	float: left;
+	margin-left: 16px;
+	width: 386px;
+	height: 160px;
+}
+
+.buying .ad_list .buya {
+	margin-left: 0;
+}
+
+
+/*专区*/
+
+
+/*专区1*/
+
+.title_main {
+	font-size: 28px;
+	zoom: 1;
+	overflow: hidden;
+	padding: 37px 0 20px 0;
+}
+
+.title_main .icon {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.area .title_main dl {
+	margin-left: 116px;
+}
+
+.title_main dd {
+	float: left;
+	margin-right: 5px;
+	padding: 5px 20px 0 20px;
+	font-size: 16px;
+}
+
+.title_main dd a {
+	display: block;
+	padding-bottom: 5px;
+	color: #666;
+}
+
+.title_main .on a,
+.title_main dd a:hover {
+	border-bottom: 3px solid #de2f3c;
+	color: #e90303
+}
+
+.on a {
+	border-bottom: 3px solid #de2f3c;
+	color: #e90303
+}
+
+.title_main .more {
+	margin-top: 10px;
+	font-size: 16px;
+	color: #666;
+}
+
+.title_main .more:hover {
+	color: #e90404;
+}
+
+.title_main .more:hover span {
+	background-position: -111px 0;
+}
+
+.title_main .more span {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	background: url(../img/base.png) no-repeat -90px 0;
+	vertical-align: -5px;
+}
+
+.area .ad {
+	width: 226px;
+	height: 614px;
+	margin: 0 15px 15px 0;
+}
+
+.tempWrap {
+	overflow: hidden;
+	position: relative;
+	width: 949px;
+}
+
+.tempWrap .content {
+	width: 4745px;
+	left: 0px;
+	position: relative;
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+
+.tempWrap .content .main {
+	float: left;
+	width: 949px;
+}
+
+.area .list {
+	position: relative;
+	float: left;
+	background-color: #FFF;
+	width: 226px;
+	height: 253px;
+	padding-top: 47px;
+	margin: 0 15px 15px 0;
+	text-align: center
+}
+
+
+/*.area .list:hover .add{
+	height: 90px;
+	transition: all 0.5s;
+}*/
+
+.area .area_slide {
+	position: relative;
+	width: 467px;
+	height: 300px;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+.area_slide .tempWrap {
+	width: 467px
+}
+
+.tempWrap ul {
+	position: relative;
+	overflow: hidden;
+}
+
+.area_slide .tempWrap ul {
+	width: 467px;
+}
+
+.tempWrap ul li {
+	float: left;
+}
+
+.area_slide .tempWrap ul li {
+	width: 467px;
+}
+
+.area_slide>a {
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+}
+
+.area_slide .prev {
+	left: 0;
+}
+
+.area_slide .next {
+	right: 0;
+}
+
+.area_slide>a span {
+	display: block;
+	width: 35px;
+	height: 70px;
+	background: url(../img/base.png);
+}
+
+.area_slide>a:hover {
+	background: url(../img/rgba.png);
+}
+
+.area_slide .prev span {
+	background-position: -94px -20px;
+}
+
+.area_slide .next span {
+	background-position: -128px -20px;
+}
+
+.area_slide ol {}
+
+.area_slide ol li .buying .like,
+.area .list .like {
+	position: absolute;
+	top: 18px;
+	right: 15px;
+	color: #999;
+	font-family: Arial;
+	line-height: 14px
+}
+
+.area .list .like:hover span {
+	background-position: -145px 0
+}
+
+.area .list .like:hover {
+	color: #e90404;
+}
+
+
+/*鼠标滑过加入购物车 */
+
+.product-item .add {
+	display: none;
+	overflow: hidden;
+	height: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.area .list .add a.star {
+	width: 74px;
+	height: 14px;
+	margin: 12px auto;
+	background: url(../img/stars.png) no-repeat 0 -70px;
+	display: block;
+}
+
+.list .add {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 226px;
+	height: 0px;
+	display: block;
+	background: url(../img/rgba.png);
+}
+
+.area .list .add .btn {
+	position: absolute;
+	top: 38px;
+	left: 50%;
+	width: 214px;
+	height: 45px;
+	line-height: 45px;
+	margin: 0 auto 0 -108px;
+	border: 1px solid #FFF;
+	font-size: 16px;
+	color: #FFF;
+}
+
+.list .add:hover .btn {
+	background-color: #e32332;
+	border-color: #e32332;
+	color: #FFF;
+}
+
+.list .add a.btn span {
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	margin-right: 9px;
+	vertical-align: -3px;
+	background: url(../img/base.png) no-repeat -184px -38px;
+}
+
+.buying .like span,
+.area .list .like span {
+	display: inline-block;
+	width: 13px;
+	height: 11px;
+	overflow: hidden;
+	margin-right: 5px;
+	background: url(../img/base.png) no-repeat -132px 0;
+	vertical-align: middle
+}
+
+.area .list a img {
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+}
+
+.buying .name,
+.area .list .name {
+	font-size: 14px;
+	line-height: 16px;
+	margin: 15px 15px 5px 15px;
+	max-height: 38px;
+	overflow: hidden
+}
+
+.buying .price,
+.area .list .price {
+	font-size: 18px;
+	color: #eb0303;
+	font-family: Arial;
+}
+
+
+/*专区2*/
+
+.buying .discount,
+.area .list .discount {
+	background-color: #ff5353;
+	font-size: 12px;
+}
+
+.buying .identity,
+.area .list .identity {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 52px;
+	height: 52px;
+	line-height: 52px;
+	border-radius: 26px;
+	font-size: 16px;
+	color: #FFF;
+	box-shadow: 0 1px 3px #CCC;
+}
+
+.buying .price s,
+.area .list .price s {
+	display: inline-block;
+	margin-left: 7px;
+	vertical-align: middle;
+	font-size: 12px;
+	color: #999;
+}
+
+
+/*玩家热评*/
+
+.hot_comment li {
+	float: left;
+	zoom: 1;
+	overflow: hidden;
+	width: 330px;
+	height: 120px;
+	padding: 28px;
+	margin-right: 16px;
+	background-color: #FFF;
+}
+
+.hot_comment li .info {
+	width: 184px;
+	margin-left: 15px;
+	line-height: 20px;
+	color: #666;
+}
+
+.hot_comment li .from {
+	color: #999;
+	font-size: 12px;
+}
+
+.hot_comment li .from span {
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+	margin-right: 5px;
+	background: url(../img/base.png) no-repeat -174px 0;
+	vertical-align: -1px;
+}
+
+.hot_comment li .info .text {
+	height: 81px;
+	overflow: hidden;
+}
+
+.hot_comment li .from font {
+	padding-left: 5px;
+}
+
+.hot_comment li .name {
+	font-size: 14px;
+	height: 20px;
+	overflow: hidden;
+}
+
+.hot_comment li .name span {
+	color: #ea0406;
+	padding-left: 6px;
+	margin-left: 6px;
+	font-family: Arial;
+	border-left: 1px solid #DDD;
+}
+
+

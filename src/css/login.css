@@ -1,0 +1,236 @@
+body {
+	background-color: transparent;
+	background-image: none;
+	font-family: 宋体;
+}
+/*************************************登录页面**************************************************/
+.loginbox {
+	position: fixed;
+	z-index: 999999;
+	left: 50%;
+	top: 50%;
+	width: 624px;
+	height: 364px;
+	margin: -223px 0 0 -312px;
+	border: 1px solid #979797;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.loginbox .closebox {
+	height: 50px;
+	border-top: 3px solid #dc4949;
+	background: url(../img/c_line.png) no-repeat 572px 0;
+}
+
+.loginbox .closebox span {
+	float: right;
+	width: 46px;
+	height: 20px;
+	cursor: pointer;
+	background: url(../img/closebox.png) no-repeat center center;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.loginbox .login-l {
+	float: left;
+	width: 264px;
+	position: relative;
+}
+
+.loginbox h6 {
+	color: #999;
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 16px;
+}
+
+.loginbox .login-l h6 {
+	text-align: center;
+}
+
+.loginbox .login-l .ewmbox {
+	width: 130px;
+	border: 1px solid #dfdfdf;
+	text-align: center;
+	font-size: 0;
+	margin: 35px auto 20px;
+	padding: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.loginbox .login-l p {
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.loginbox .login-l p a {
+	color: #ff4c4c;
+}
+
+.login-l .nline {
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 1px;
+	height: 244px;
+	background-color: #dfdfdf;
+	z-index: 1;
+}
+
+.login-r {
+	float: left;
+	width: 290px;
+	padding-left: 50px;
+}
+
+.loginbox .login-r h6 {}
+.login .logboxwrong {
+	color: #ff4c4c;
+	font-size: 12px;
+	border: 1px solid #ffbdbf;
+	border-radius: 5px;
+	width: 217px;
+	min-height: 30px;
+	line-height: 20px;
+	background: url(../img/mbwrong.png) no-repeat #ffebec 10px center;
+	padding-left: 30px;
+	padding-top: 5px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	z-index: 1;
+	display: none;
+}
+
+.login .logboxwrong:after {
+	content: "";
+	position: absolute;
+	background: url(../img/sjts.png) no-repeat;
+	width: 14px;
+	height: 6px;
+	left: 22px;
+	bottom: -6px;
+}
+.login-r .login {
+	padding-top: 35px;
+	position: relative;
+}
+
+.login-r .login>p {
+	padding-bottom: 12px;
+	position: relative;
+}
+
+.login-r .login .tel,
+.login-r .login .password {
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	height: 40px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding-left: 35px;
+	line-height: 40px;
+}
+
+.login .tel {
+	background-image: url(../img/user.png);
+	color: #666;
+	padding-right: 30px;
+	width: 182px;
+}
+
+.login .password {
+	background-image: url(../img/password.png);
+	color: #999;
+	padding-right: 10px;
+	width: 202px;
+}
+
+.login .pintu {
+	height: 32px;
+	width: 262px;
+	background: #ffffff;
+	border: 1px solid #dfdfdf;
+	position: relative;
+	margin-bottom: 12px;
+}
+
+.pintu .box {
+	position: relative;
+	height: 34px;
+	width: 48px;
+	border: 1px solid #d9d9d9;
+	border-radius: 5px;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 0 10px 15px #0CC;
+	-moz-box-shadow: 0 0 2px 1px #d9d9d9;
+	-o-box-shadow: 0 0 2px 1px #d9d9d9;
+	-ms-box-shadow: 0 0 2px 1px #d9d9d9;
+	box-shadow: 0 0 2px 1px #d9d9d9;
+	top: -2px;
+}
+
+.pintu .box .box_arrow {
+	height: 18px;
+	width: 13px;
+	background-position: -2px -1px;
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 19px;
+	background-image: url(../img/icon.png);
+	cursor: move;
+}
+
+.pintu p {
+	line-height: 20px;
+	font-size: 14px;
+	position: absolute;
+	z-index: 1;
+	width: 150px;
+	height: 20px;
+	color: #e03434;
+	left: 75px;
+	top: 5px;
+	letter-spacing: 1px;
+}
+
+.login-r .login .dl{
+	height: 36px;
+	border: 0 none;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.login-r .login .dl1 {
+	background: url(../img/bt1.png) no-repeat;
+	width: 92px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.login-r .login .dl2 {
+	background: url(../img/bt2.png) no-repeat;
+	width: 120px;
+	color: #666;
+}
+
+.login-r .otherdl {
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	font-size: 12px;
+	color: #999;
+}
+
+.login-r .otherdl a {
+	margin: 0 5px;
+	cursor: pointer;
+	color: #999;
+}

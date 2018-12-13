@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>账号登录</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="script/thirdplugins/require.js" async="true" defer data-main="script/js/index.js" ></script>
+	</head>
+	<body>
+		<div class="loginbox">
+			<div class="closebox">
+				<span></span>
+			</div>
+			<div class="login-l">
+	            <h6>扫码登录  安全快速</h6>
+	            <div class="ewmbox">
+	                <img id="qrcodeimg" src="img/qrcode.png" alt="">
+	            </div>
+	            <p>使用完美手机令牌扫描二维码</p>
+	            <p><a href="http://lingpai.wanmei.com/" target="_blank">还没安装？点我</a></p>
+	        	<div class="nline"></div>
+			</div>
+	        <div class="login-r">
+	        	<h6>账号登录</h6>
+	        	
+	        	<form class="login" action="http://10.31.155.108/wanmei/php/login.php" method="post">
+	        		<span class="logboxwrong">账号格式不正确</span>
+	        		<p>
+	        			<input id="tel" name="tel" type="text" placeholder="账号" class="tel">
+	        		</p>
+	                <p>
+	                	<input id="password" type="password" placeholder="密码 / 神盾密码" class="password">
+                	</p>
+                	<div class="pintu">
+                		<div class="box">
+                			<div class="box_arrow"></div>
+                		</div>
+                		<p>向右拖动滑块完成拼图</p>
+                	</div>
+                	<p>
+                		<input type="button" value="登录" class="dl dl1" id="normaldl">
+	                    <input type="button" value="神盾登录" class="dl dl2">
+	                </p>
+	        	</form>
+	        	<div class="otherdl">
+		            <a href="http://accountinterface.wanmei.com/?game=passport&amp;from=laohu&amp;continue=https://passport.wanmei.com/sso/logintoiframe&amp;service=wmshop&amp;location=687474703a2f2f73686f702e77616e6d65692e636f6d2f" target="_top">老虎账号登录</a>
+		            |<a href="//passport.wanmei.com/reg/" target="_blank">注册新账号</a>
+		            |<a href="//passport.wanmei.com/password/" target="_blank" title="">忘记密码</a>
+		        </div>
+	        </div>
+		</div>
+	</body>
+</html>
